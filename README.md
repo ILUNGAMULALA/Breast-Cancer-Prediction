@@ -84,6 +84,6 @@ Contributions are welcome! Feel free to open issues or submit pull requests.
 
 ### Author
 I give credit to:
-[Your Name](https://github.com/alejandro-ao)
+(https://github.com/alejandro-ao) (Alejandro ao)
 Thank you for your 2 hours class.
 
