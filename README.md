@@ -1,42 +1,45 @@
-Breast Cancer Predictor
+# Breast Cancer Predictor
 
-Overview
+## Overview
 
-This project is a Breast Cancer Prediction web application built using Streamlit, Pandas, Plotly, and Scikit-learn. It allows users to input cell nuclei measurements and predicts whether a breast tissue sample is benign or malignant using a trained machine learning model.
+This project is a **Breast Cancer Prediction** web application built using **Streamlit**, **Pandas**, **Plotly**, and **Scikit-learn**. It allows users to input cell nuclei measurements and predicts whether a breast tissue sample is benign or malignant using a trained machine learning model.
 
-Features
+## Features
 
-Interactive Sidebar: Users can input cell nuclei details using sliders.
+- **Interactive Sidebar**: Users can input cell nuclei details using sliders.
+- **Radar Chart Visualization**: Displays the mean, standard error, and worst values for key cell characteristics.
+- **Machine Learning Prediction**: Uses a pre-trained model to classify breast cancer samples as benign or malignant.
+- **Probability Display**: Shows the likelihood of each classification.
+- **User-friendly UI**: Simple and intuitive interface designed for use in cytology labs.
 
-Radar Chart Visualization: Displays the mean, standard error, and worst values for key cell characteristics.
+## Installation
 
-Machine Learning Prediction: Uses a pre-trained model to classify breast cancer samples as benign or malignant.
+### Prerequisites
 
-Probability Display: Shows the likelihood of each classification.
+Ensure you have Python installed. Recommended version: **Python 3.7+**.
 
-User-friendly UI: Simple and intuitive interface designed for use in cytology labs.
+### Clone the Repository
 
-Installation
-
-Prerequisites
-
-Ensure you have Python installed. Recommended version: Python 3.7+.
-
-Clone the Repository
-
+```bash
 git clone https://github.com/your-username/breast-cancer-predictor.git
 cd breast-cancer-predictor
+```
 
-Install Dependencies
+### Install Dependencies
 
+```bash
 pip install -r requirements.txt
+```
 
-Running the Application
+## Running the Application
 
+```bash
 streamlit run app.py
+```
 
-File Structure
+## File Structure
 
+```
 ├── data/
 │   ├── data.csv  # Dataset used for model training and prediction
 ├── model/
@@ -47,44 +50,40 @@ File Structure
 ├── app.py         # Main application script
 ├── requirements.txt # Required Python packages
 ├── README.md      # Project documentation
+```
 
-Usage
+## Usage
 
-Run the application and navigate to the provided local URL.
+1. Run the application and navigate to the provided **local URL**.
+2. Adjust the **cell nuclei measurements** using the sliders in the sidebar.
+3. View the **Radar Chart** to compare feature values.
+4. The model will predict whether the sample is **Benign** or **Malignant** along with probabilities.
 
-Adjust the cell nuclei measurements using the sliders in the sidebar.
+## Technologies Used
 
-View the Radar Chart to compare feature values.
+- **Python**
+- **Streamlit**
+- **Pandas**
+- **Scikit-learn**
+- **Plotly**
+- **NumPy**
 
-The model will predict whether the sample is Benign or Malignant along with probabilities.
+## Disclaimer
 
-Technologies Used
+This application is designed as an **assistive tool for medical professionals** and should **not** be used as a substitute for professional medical diagnosis.
 
-Python
-
-Streamlit
-
-Pandas
-
-Scikit-learn
-
-Plotly
-
-NumPy
-
-Disclaimer
-
-This application is designed as an assistive tool for medical professionals and should not be used as a substitute for professional medical diagnosis.
-
-License
+## License
 
 This project is licensed under the MIT License.
 
-Contributing
+## Contributing
 
 Contributions are welcome! Feel free to open issues or submit pull requests.
 
-Author
+---
 
-I give credit to alejandro-ao, thank you for your class.
+### Author
+I give credit to:
+[Your Name](https://github.com/alejandro-ao)
+Thank you for your 2 hours class.
 
